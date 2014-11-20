@@ -1,0 +1,154 @@
+/*
+besiix.com main stylesheet 
+	by Sean Wilson
+
+ ====COLOUR PALETTE FOR BESIIX====
+ Grey 		= #2B2B2B
+ Dark Grey	= #1A1A1A
+ Blue       = #3690FF
+ Green      = #6BE01D
+ =================================
+ */
+
+@font-face {
+	font-family: "coolvetica";
+	src: url("../fonts/coolvetica/coolvetica.ttf");
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #1A1A1A;
+	font: small/1em Verdana, Arial, sans-serif;
+	min-height: 400px;
+}
+
+/*================ MAIN CONTAINER ==============*/
+
+/*---- NARROW SCREEN ----*/
+@media (max-width: 799px) {
+	#leftDiv, #middleDiv, #rightDiv {
+		text-align: center;
+	}
+}
+
+
+/*----- WIDE SCREEN -----*/
+@media (min-width: 800px) {
+	#mainContainer {
+		display: table;
+	}
+
+	#leftDiv, #middleDiv, #rightDiv {
+		display: table-cell;
+	}
+
+	#leftDiv {
+		text-align: right;
+	}
+
+	#middleDiv {
+		text-align: center;
+	}
+
+	#rightDiv {
+		text-align: left;
+	}
+}
+
+#mainContainer {
+	width:100%;
+}
+
+#leftDiv {
+	background: #1A1A1A url(../images/MyComputer.JPG) no-repeat center top;
+	background-size: auto 100%;
+}
+
+#middleDiv {
+	background: #1A1A1A url(../images/Me.JPG) no-repeat center top;	
+	background-size: auto 100%;
+}
+
+#rightDiv {
+	background: #1A1A1A url(../images/Black.JPG) no-repeat center top;	
+	background-size: auto 100%;
+}
+
+.categoryCover {
+	background-color: #1A1A1A;
+}
+
+.categoryTitle {
+	font-size: 2em;
+	line-height: 1;
+	color: white;
+	padding-top: 520px;
+}
+
+/*=================== BANNER ===================*/
+#banner {
+	background-color: #2B2B2B;
+	font: 2em coolvetica, Arial, sans-serif;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 350px;
+	width: 100%;
+}
+
+#bannerHeader {
+	font-size: 5em;
+}
+
+/*=================== FOOTER ===================*/
+footer {
+	width: 250px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#socialList {
+	position: relative;
+}
+
+.socialMediaIcon {
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+.socialMediaIcon, .socialMediaIcon > a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+#linkedInIcon {
+	left: 0px;
+	background: url(../thumbnails/socialMediaIcons50x50.png) -100px 0;
+}
+
+#githubIcon {
+	left: 50px;
+	background: url(../thumbnails/socialMediaIcons50x50.png) -200px 0;
+}
+
+#twitterIcon {
+	left: 100px;
+	background: url(../thumbnails/socialMediaIcons50x50.png) -50px 0;
+}
+
+#skypeIcon {
+	left: 150px;
+	background: url(../thumbnails/socialMediaIcons50x50.png) 0px 0;
+}
+
+#steamIcon {
+	left: 200px;
+	background: url(../thumbnails/socialMediaIcons50x50.png) -150px 0;
+}
