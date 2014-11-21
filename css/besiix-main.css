@@ -94,6 +94,8 @@ footer {
 
 
 .socialMediaIcon {
+	background-image: url(../thumbnails/socialMediaIcons75x75.png);
+	background-size: 500%;
 	list-style: none;
 	position: absolute;
 }
@@ -106,25 +108,26 @@ footer {
 
 #linkedInIcon {
 	left: 0px;
-	background: url(../thumbnails/socialMediaIcons50x50.png) -100px 0;
+	background-position: 50% 0;
 }
 
 #githubIcon {
 	left: 50px;
-	background: url(../thumbnails/socialMediaIcons50x50.png) -200px 0;
+	background-position: 100% 0;
+
 }
 
 #twitterIcon {
 	left: 100px;
-	background: url(../thumbnails/socialMediaIcons50x50.png) -50px 0;
+	background-position: 25% 0;
 }
 
 #skypeIcon {
 	left: 150px;
-	background: url(../thumbnails/socialMediaIcons50x50.png) 0px 0;
+	background-position: 0 0;
 }
 
 #steamIcon {
 	left: 200px;
-	background: url(../thumbnails/socialMediaIcons50x50.png) -150px 0;
+	background-position: 75% 0;
 }
