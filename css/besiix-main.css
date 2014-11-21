@@ -75,7 +75,7 @@ body {
 	text-align: center;
 	color: white;
 	position: absolute;
-	top: 380px;
+	top: 60%;
 	width: 100%;
 }
 
@@ -85,11 +85,11 @@ body {
 
 /*=================== FOOTER ===================*/
 footer {
-	width: 250px;
-	height: 50px;
+	position: relative;	
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
+	width: 250px;
+	height: 50px;
 }
 
 
@@ -107,27 +107,26 @@ footer {
 }
 
 #linkedInIcon {
-	left: 0px;
 	background-position: 50% 0;
+	left: 0px;
 }
 
 #githubIcon {
-	left: 50px;
 	background-position: 100% 0;
-
+	left: 50px;
 }
 
 #twitterIcon {
-	left: 100px;
 	background-position: 25% 0;
+	left: 100px;
 }
 
 #skypeIcon {
-	left: 150px;
 	background-position: 0 0;
+	left: 150px;
 }
 
 #steamIcon {
-	left: 200px;
 	background-position: 75% 0;
+	left: 200px;
 }
