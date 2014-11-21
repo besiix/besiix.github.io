@@ -76,19 +76,63 @@ h1, h2 {
 	line-height: 1;
 	color: white;
 	position: absolute;
-	bottom: 15%;
 }
 
-#leftTitle {
-	right: 20%;
+@media (min-width: 1500px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 40%;
+	}
+	#rightTitle {
+		left: 0%;
+	}
 }
 
-#middleTitle {
-	left: 30%;
+@media (max-width: 1499px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 35%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
 }
-
-#rightTitle {
-	left: 10%;
+@media (max-width: 1199px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 30%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
+}
+@media (max-width: 1099px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 25%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
+}
+@media (max-width: 300px) {
+	#leftTitle {
+		right: 20%;
+	}
+	#middleTitle {
+		left: 20%;
+	}
+	#rightTitle {
+		left: 10%;
+	}
 }
 
 /*=================== BANNER ===================*/
@@ -101,20 +145,40 @@ h1, h2 {
 	width: 100%;
 }
 
-@media (min-height: 600px) {
+
+@media (min-width: 651px) {
 	#banner {
-		top: 55%;
+		top: 60%;
 	}
 	#bannerHeader {
 		font-size: 5em;
 	}
+	.categoryTitle {
+		bottom: 10%;
+	}
 }
-@media (max-height: 599px) {
+
+@media (max-height: 650px) {
+	#banner {
+		top: 55%;
+	}
+	#bannerHeader {
+		font-size: 4em;
+	}
+	.categoryTitle {
+		bottom: 10%;
+	}
+}
+
+@media (max-height: 500px) {
 	#banner {
 		top: 0;
 	}
 	#bannerHeader {
-		font-size: 4em;
+		font-size: 3em;
+	}
+	.categoryTitle {
+		bottom: 15%;
 	}
 }
 
