@@ -33,6 +33,10 @@ body {
 	height: 100%;
 }
 
+h1, h2 {
+	font-weight: normal;
+}
+
 /*================ MAIN CONTAINER ==============*/
 #mainContainer {
 	display: table;
@@ -72,8 +76,19 @@ body {
 	line-height: 1;
 	color: white;
 	position: absolute;
-	bottom: 10%;
-	left: 35%;
+	bottom: 15%;
+}
+
+#leftTitle {
+	right: 20%;
+}
+
+#middleTitle {
+	left: 30%;
+}
+
+#rightTitle {
+	left: 10%;
 }
 
 /*=================== BANNER ===================*/
