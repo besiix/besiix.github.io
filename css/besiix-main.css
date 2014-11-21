@@ -114,10 +114,10 @@ h1, h2 {
 }
 @media (max-width: 1099px) {
 	#leftTitle {
-		right: 15%;
+		right: 20%;
 	}
 	#middleTitle {
-		left: 25%;
+		left: 20%;
 	}
 	#rightTitle {
 		left: 5%;
@@ -125,10 +125,10 @@ h1, h2 {
 }
 @media (max-width: 300px) {
 	#leftTitle {
-		right: 20%;
+		right: 25%;
 	}
 	#middleTitle {
-		left: 20%;
+		left: 10%;
 	}
 	#rightTitle {
 		left: 10%;
