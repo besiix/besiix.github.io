@@ -23,59 +23,38 @@ besiix.com main stylesheet
 body {
 	background-color: #1A1A1A;
 	font: small/1em Verdana, Arial, sans-serif;
-	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 500px;
 }
 
 /*================ MAIN CONTAINER ==============*/
-
-/*---- NARROW SCREEN ----*/
-@media (max-width: 799px) {
-	#leftDiv, #middleDiv, #rightDiv {
-		text-align: center;
-	}
-}
-
-
-/*----- WIDE SCREEN -----*/
-@media (min-width: 800px) {
-	#mainContainer {
-		display: table;
-	}
-
-	#leftDiv, #middleDiv, #rightDiv {
-		display: table-cell;
-	}
-
-	#leftDiv {
-		text-align: right;
-	}
-
-	#middleDiv {
-		text-align: center;
-	}
-
-	#rightDiv {
-		text-align: left;
-	}
-}
-
 #mainContainer {
+	display: table;
 	width:100%;
+	margin-bottom: -50px;
+}
+
+#leftDiv, #middleDiv, #rightDiv {
+	display: table-cell;
 }
 
 #leftDiv {
 	background: #1A1A1A url(../images/MyComputer.JPG) no-repeat center top;
 	background-size: auto 100%;
+	text-align: right;
 }
 
 #middleDiv {
 	background: #1A1A1A url(../images/Me.JPG) no-repeat center top;	
 	background-size: auto 100%;
+	text-align: center;
 }
 
 #rightDiv {
 	background: #1A1A1A url(../images/Black.JPG) no-repeat center top;	
 	background-size: auto 100%;
+	text-align: left;
 }
 
 .categoryCover {
@@ -86,7 +65,8 @@ body {
 	font-size: 2em;
 	line-height: 1;
 	color: white;
-	padding-top: 520px;
+	padding-top: 540px;
+	padding-bottom: 80px;
 }
 
 /*=================== BANNER ===================*/
@@ -96,7 +76,8 @@ body {
 	text-align: center;
 	color: white;
 	position: absolute;
-	top: 350px;
+	top: 380px;
+	min-width: 500px;
 	width: 100%;
 }
 
@@ -110,16 +91,13 @@ footer {
 	height: 50px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#socialList {
 	position: relative;
 }
+
 
 .socialMediaIcon {
 	list-style: none;
 	position: absolute;
-	top: 0;
 }
 
 .socialMediaIcon, .socialMediaIcon > a {
