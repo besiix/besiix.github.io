@@ -98,12 +98,24 @@ h1, h2 {
 	text-align: center;
 	color: white;
 	position: absolute;
-	top: 55%;
 	width: 100%;
 }
 
-#bannerHeader {
-	font-size: 5em;
+@media (min-height: 600px) {
+	#banner {
+		top: 55%;
+	}
+	#bannerHeader {
+		font-size: 5em;
+	}
+}
+@media (max-height: 599px) {
+	#banner {
+		top: 0;
+	}
+	#bannerHeader {
+		font-size: 4em;
+	}
 }
 
 /*=================== FOOTER ===================*/
