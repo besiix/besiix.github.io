@@ -46,19 +46,19 @@ body {
 }
 
 #leftDiv {
-	background: #1A1A1A url(../images/MyComputer.JPG) no-repeat center top;
+	background: #1A1A1A url(../images/MyComputer800.jpg) no-repeat center top;
 	background-size: auto 100%;
 	text-align: right;
 }
 
 #middleDiv {
-	background: #1A1A1A url(../images/Me.JPG) no-repeat center top;	
+	background: #1A1A1A url(../images/Me800.jpg) no-repeat center top;	
 	background-size: auto 100%;
 	text-align: center;
 }
 
 #rightDiv {
-	background: #1A1A1A url(../images/Black.JPG) no-repeat center top;	
+	background: #1A1A1A url(../images/Nao800.jpg) no-repeat center top;	
 	background-size: auto 100%;
 	text-align: left;
 }
