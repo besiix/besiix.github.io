@@ -20,22 +20,29 @@ besiix.com main stylesheet
 	padding: 0px;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #1A1A1A;
 	font: small/1em Verdana, Arial, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
+	height: 100%;
 }
 
 /*================ MAIN CONTAINER ==============*/
 #mainContainer {
 	display: table;
-	width:100%;
+	width: 100%;
+	height: 100%;
 	margin-bottom: -50px;
 }
 
 #leftDiv, #middleDiv, #rightDiv {
 	display: table-cell;
+	height: 100%;
 }
 
 #leftDiv {
@@ -58,14 +65,14 @@ body {
 
 .categoryCover {
 	background-color: #1A1A1A;
+	height: 100%;
+	width: 100%;
 }
 
 .categoryTitle {
 	font-size: 2em;
 	line-height: 1;
 	color: white;
-	padding-top: 540px;
-	padding-bottom: 80px;
 }
 
 /*=================== BANNER ===================*/
