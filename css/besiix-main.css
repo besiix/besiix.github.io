@@ -114,7 +114,7 @@ h1, h2 {
 }
 @media (max-width: 1099px) {
 	#leftTitle {
-		right: 5%;
+		right: 15%;
 	}
 	#middleTitle {
 		left: 25%;
