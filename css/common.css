@@ -1,0 +1,138 @@
+/* Common theme throught besiix.com
+	by Sean Wilson 
+
+ ====COLOUR PALETTE FOR BESIIX====
+ Grey 		= #2B2B2B
+ Light Grey	= #B5B5B5
+ Dark Grey	= #1A1A1A
+ Blue       = #008BE8
+ =================================
+*/
+
+@font-face {
+	font-family: "coolvetica";
+	src: url("../fonts/coolvetica.ttf");
+}
+
+@font-face {
+	font-family: "lato-thin";
+	src: url("../fonts/Lato-Thin.ttf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*================== DIVS ======================*/
+body {
+	background-color: #1A1A1A;
+	font: medium/1.4 lato-thin, sans-serif;
+	color: white;
+	margin: 0 auto 0 auto;
+	max-width: 1300px;
+	min-width: 300px;
+}
+
+section {
+	font-size: 1.2em;
+	background-color: #2B2B2B;
+	margin: 10px 0;
+}
+
+/*================= HEADERS ====================*/
+h1, h2, h3 {
+	font-weight: normal;
+	padding:10px;
+}
+
+h1 {
+	font: 3em/1 coolvetica, sans-serif;
+}
+
+h2 {
+	font: 3em/1 lato-thin, sans-serif;
+}
+
+h3 {
+	font: 1.5em lato-thin, sans-serif;
+	color: #008BE8;
+}
+
+.pageHeader {
+	position: relative;
+	background-color: #2B2B2B;
+	font: 2em coolvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+/*================== TEXT ======================*/
+p {
+	color: #B5B5B5;
+	padding: 15px;
+}
+
+/*================= NAV BAR ====================*/
+.pageHeader > h1 {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+#navList {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	font: 0.9em lato-thin, sans-serif;
+	list-style-type: none;
+	display:inline-block;
+}
+
+.navItem {
+	display: inline-block;
+}
+
+.separator {
+	color: #008BE8;
+}
+
+.navItem > a {
+	text-decoration: none;
+	color: #B5B5B5;
+}
+
+.navItem > a:hover {
+	color: white;
+}
+
+.navItem > a:active {
+	color: #008BE8;
+}
+
+.navIcon {
+	display: inline-block;
+	width: 60px;
+	height: auto;
+	margin-right: 15px;
+}
+
+/*================== BUTTONs ===================*/
+.button {
+	display: inline-block;
+	background-color: #3D3D3D;
+	font: 1em lato-thin, Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #008BE8;
+	width: 100px;
+	padding: 10px 10px;
+}
+
+/*================ TABLE LAYOUT ================*/
+.table {
+	display: table;
+}
+
+.column {
+	display: table-cell;
+	padding: 15px;
+}

@@ -1,0 +1,57 @@
+/* besiix - Portfolio
+	by Sean Wilson
+ */
+
+/*================ SLIDER CONFIG ================*/
+#slider {
+	width: 100%;
+	max-width: 1300px;
+	min-width: 300px;
+	overflow-x: scroll;
+}
+
+#holder {
+	/* 100% * numProjects */
+	width: 200%;
+}
+
+.slide {
+	float: left;
+	width: 100%;
+	max-width: 1300px;
+	min-width: 300px;
+}
+
+/*================= PROJECT MAIN ================*/
+.projectHeader {
+	height: 200px;
+	position: relative;
+}
+
+.projectHeader > h2 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(transparent, rgba(26,26,26,0.7));
+	margin-bottom: 0px;
+}
+
+#projectNav {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+}
+
+.projectPhoto {
+	width: 98%;
+	height: auto;
+	padding: 10px;
+}
+
+/*================= PROJECTS ===================*/
+#project1_header {
+	background: #1A1A1A url(../images/portfolio/test1.JPG) no-repeat center top;
+	background-size: 100%;
+}

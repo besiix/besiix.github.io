@@ -1,0 +1,212 @@
+/* besiix - Home
+	by Sean Wilson
+ */
+
+html {
+	height: 100%;
+	min-height: 210px;
+}
+
+#body {
+	height: 100%;
+	max-width: 100%;
+}
+
+/*================ MAIN CONTAINER ==============*/
+#mainContainer {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin-bottom: -50px;
+}
+
+.categoryDiv {
+	display: table-cell;
+}
+
+/*.categoryDiv:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	background: linear-gradient(transparent, rgba(26,26,26,0.5));
+}*/
+
+#leftDiv {
+	background: #1A1A1A url(../images/home/MyComputer800.jpg) no-repeat center top;
+	background-size: auto 100%;
+}
+
+#middleDiv {
+	background: #1A1A1A url(../images/home/Me800.jpg) no-repeat center top;	
+	background-size: auto 100%;
+}
+
+#rightDiv {
+	background: #1A1A1A url(../images/home/Nao800.jpg) no-repeat center top;	
+	background-size: auto 100%;
+}
+
+.categoryCover {
+	background-color: #1A1A1A;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.categoryTitle {
+	background: linear-gradient(transparent, rgba(26,26,26,0.5));
+	color: white;
+	line-height: 1;
+	position: absolute;
+}
+
+@media (min-width: 1500px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 40%;
+	}
+	#rightTitle {
+		left: 0%;
+	}
+}
+@media (max-width: 1499px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 35%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
+}
+@media (max-width: 1199px) {
+	#leftTitle {
+		right: 5%;
+	}
+	#middleTitle {
+		left: 30%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
+}
+@media (max-width: 1099px) {
+	#leftTitle {
+		right: 20%;
+	}
+	#middleTitle {
+		left: 20%;
+	}
+	#rightTitle {
+		left: 5%;
+	}
+}
+@media (max-width: 300px) {
+	#leftTitle {
+		right: 25%;
+	}
+	#middleTitle {
+		left: 10%;
+	}
+	#rightTitle {
+		left: 10%;
+	}
+}
+
+/*=================== BANNER ===================*/
+#banner {
+	background-color: #2B2B2B;
+	font: 2em coolvetica, Arial, sans-serif;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+
+@media (min-width: 651px) {
+	#banner {
+		top: 60%;
+	}
+	#bannerHeader {
+		font-size: 5em;
+	}
+	.categoryTitle {
+		bottom: 10%;
+	}
+}
+@media (max-height: 650px) {
+	#banner {
+		top: 55%;
+	}
+	#bannerHeader {
+		font-size: 4em;
+	}
+	.categoryTitle {
+		bottom: 10%;
+	}
+}
+@media (max-height: 500px) {
+	#banner {
+		top: 0;
+	}
+	#bannerHeader {
+		font-size: 3em;
+	}
+	.categoryTitle {
+		bottom: 15%;
+	}
+}
+
+/*=================== FOOTER ===================*/
+footer {
+	position: relative;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 50px;
+}
+
+
+.socialMediaIcon {
+	background-image: url(../thumbnails/socialMediaIcons75x75.png);
+	background-size: 500%;
+	list-style: none;
+	position: absolute;
+}
+
+.socialMediaIcon, .socialMediaIcon > a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+#linkedInIcon {
+	background-position: 50% 0;
+	left: 0px;
+}
+
+#githubIcon {
+	background-position: 100% 0;
+	left: 50px;
+}
+
+#twitterIcon {
+	background-position: 25% 0;
+	left: 100px;
+}
+
+#skypeIcon {
+	background-position: 0 0;
+	left: 150px;
+}
+
+#steamIcon {
+	background-position: 75% 0;
+	left: 200px;
+}
