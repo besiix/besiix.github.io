@@ -29,7 +29,7 @@ body {
 	background-color: #1A1A1A;
 	font: medium/1.4 lato-thin, sans-serif;
 	color: white;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	max-width: 1300px;
 	min-width: 300px;
 }
@@ -38,6 +38,10 @@ section {
 	font-size: 1.2em;
 	background-color: #2B2B2B;
 	margin: 10px 0;
+}
+
+.outerDiv {
+	padding: 15px;
 }
 
 /*================= HEADERS ====================*/
@@ -63,6 +67,7 @@ h3 {
 	position: relative;
 	background-color: #2B2B2B;
 	font: 2em coolvetica, Arial, sans-serif;
+	margin: 0 10px;
 	width: 100%;
 }
 
@@ -132,7 +137,8 @@ p {
 	display: table;
 }
 
-.column {
+.column2 {
 	display: table-cell;
 	padding: 15px;
+	width: 50%;
 }
